@@ -52,6 +52,7 @@ console.log(!10>2)
 console.log(!false)
 console.log(10>2 && 35<100)
 console.log(10>2 && 35>100)
+console.log(10<2 || 100==150 || 57>=57)
 
 
 
