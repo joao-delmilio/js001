@@ -27,10 +27,33 @@ console.log(typeof salario)
 console.log(typeof fumante)
 
 // Operadores
-//     Operador Atribuição
-//     Operadores aritméticos
-//     Operadores relacionais
-//     Operadores lógicos
+//     Operador Atribuição ( = )
+//     Operadores aritméticos (+, -, /, *, **, %)
+console.log(10+15)
+
+let n1 = 10
+let n2 = 5
+
+console.log(n1+n2)
+console.log(n1-n2)
+console.log(n1/n2)
+console.log(n1*n2)
+console.log(n1**n2)
+console.log(n1%n2)
+
+//     Operadores relacionais (>, <, >=, <=, != ==)
+console.log(n1==n2)
+console.log(n1>n2)
+console.log(n1<n2)
+console.log(n1!=n2)
+
+//     Operadores lógicos (!, &&, ||")
+console.log(!10>2)
+console.log(!false)
+console.log(10>2 && 35<100)
+console.log(10>2 && 35>100)
+
+
 
 // Estrutura
 //     Estrutura de controle/decisão
