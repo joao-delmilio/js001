@@ -10,8 +10,22 @@ console.log(nome, idade)
 
 nome = "maco"
 idade = 22
-
 console.log(nome, idade)
+
+//Tipos de dados
+// text == string
+let cidade = "nova odessa"
+
+// numero == number
+let salario = 1500.35
+
+// booleano == boolean
+let fumante = false
+
+console.log(typeof cidade)
+console.log(typeof salario)
+console.log(typeof fumante)
+
 // Operadores
 //     Operador Atribuição
 //     Operadores aritméticos
