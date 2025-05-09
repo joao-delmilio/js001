@@ -29,38 +29,50 @@ console.log(typeof fumante)
 // Operadores
 //     Operador Atribuição ( = )
 //     Operadores aritméticos (+, -, /, *, **, %)
-console.log(10+15)
+console.log(10 + 15)
 
 let n1 = 10
 let n2 = 5
 
-console.log(n1+n2)
-console.log(n1-n2)
-console.log(n1/n2)
-console.log(n1*n2)
-console.log(n1**n2)
-console.log(n1%n2)
+console.log(n1 + n2)
+console.log(n1 - n2)
+console.log(n1 / n2)
+console.log(n1 * n2)
+console.log(n1 ** n2)
+console.log(n1 % n2)
 
 //     Operadores relacionais (>, <, >=, <=, != ==)
-console.log(n1==n2)
-console.log(n1>n2)
-console.log(n1<n2)
-console.log(n1!=n2)
+console.log(n1 == n2)
+console.log(n1 > n2)
+console.log(n1 < n2)
+console.log(n1 != n2)
 
 //     Operadores lógicos (!, &&, ||")
-console.log(!10>2)
+console.log(!10 > 2)
 console.log(!false)
-console.log(10>2 && 35<100)
-console.log(10>2 && 35>100)
-console.log(10<2 || 100==150 || 57>=57)
+console.log(10 > 2 && 35 < 100)
+console.log(10 > 2 && 35 > 100)
+console.log(10 < 2 || 100 == 150 || 57 >= 57)
 
+//DEFASIO
+let preco = 100
+let precoAcrescimo = 0
+let precoDesconto = 0
+//Faça um código que acresente 17% ao preço e imprimira
+//Faça um código que desconte 7% do preço e imprima
 
+precoAcrescimo = (17 / 100) * preco
+console.log("O preço acrescido de 17% é de:", preco + precoAcrescimo, "sendo", precoAcrescimo.toFixed(2), "o valor do acrescimo")
+precoDesconto = (7 / 100) * (preco + precoAcrescimo)
+console.log("O preço total com o desconto é de:", preco + precoAcrescimo - precoDesconto, "sendo", precoDesconto.toFixed(2), "o valor do desconto em cima do valor com acrescimo")
+precoDesconto = ((7/100)*preco)
+console.log("O preço com desconto em cima do preço orignal é de:", precoDesconto.toFixed(2), "totalizando", preco - precoDesconto)
 
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
 
-// Arrays 
+// Arrays
 
 // Funções básicas
 // Escopo
@@ -81,4 +93,3 @@ console.log(10<2 || 100==150 || 57>=57)
 
 
 // Spread e REST  ************
- 
