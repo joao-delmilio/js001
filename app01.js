@@ -100,7 +100,21 @@ if(salarioFunc>5000){
 }
 
 //     Laços de repetição
+let controle = 1
+while(controle <= 10){
+    console.log("Senac Americana")
+    controle = controle + 1
+}
 
+let contardez = 1
+while(contardez < 100){
+    console.log(contardez)
+    contardez = contardez + 2
+}
+
+for(let i=1; i<=10; i=i+1){
+    console.log("Macaco comendo banana")
+}
 // Arrays
 
 // Funções básicas
