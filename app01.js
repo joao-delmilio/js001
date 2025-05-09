@@ -70,6 +70,33 @@ console.log("O preço com desconto em cima do preço orignal é de:", precoDesco
 
 // Estrutura
 //     Estrutura de controle/decisão
+if(10>12){
+    console.log("10 é maior que 5")
+}
+else{
+    console.log("macaco comendo banana")
+}
+
+let idadeCandidato = 19
+
+if(idadeCandidato>=18){
+    console.log("Maior de idade")
+}
+else{
+    console.log("Tchau brigado")
+}
+
+//DESAFIO
+//faça um código que verifique se o salário do funcionário é maior que 5000, se for mostre a mensagem "salário OK" se não mostre a mensagem "Precisa de aumento"
+
+salario=3000
+
+if(salario>5000){
+    console.log("Salário OK")
+}else{
+    console.log("Precisa de aumento")
+}
+
 //     Laços de repetição
 
 // Arrays
