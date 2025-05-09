@@ -89,12 +89,14 @@ else{
 //DESAFIO
 //faça um código que verifique se o salário do funcionário é maior que 5000, se for mostre a mensagem "salário OK" se não mostre a mensagem "Precisa de aumento"
 
-salario=3000
+let salarioFunc=3000
+let x = 5000-salarioFunc
 
-if(salario>5000){
+if(salarioFunc>5000){
     console.log("Salário OK")
 }else{
     console.log("Precisa de aumento")
+    console.log("precisa de um aumento de", x, "reais")
 }
 
 //     Laços de repetição
