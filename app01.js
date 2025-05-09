@@ -115,7 +115,30 @@ while(contardez < 100){
 for(let i=1; i<=10; i=i+1){
     console.log("Macaco comendo banana")
 }
-// Arrays
+// Arrays --> vetor
+let alunos = ["joão", "paulo", "renata", "cris", "x"]
+console.log(alunos)
+console.log(alunos[2])
+alunos[4] = "mojo jojo"
+console.log(alunos[4])
+console.log(alunos)
+alunos.push("Coragem, o cão covarde")
+console.log(alunos)
+console.log(alunos[5])
+
+let bandas = []
+console.log(bandas)
+bandas.push("Slipknot") //1
+bandas.push("Spineshank") //2
+bandas.push("Korn") //3
+bandas.push("Linkin Park") //4
+bandas.push("Static-X") //5
+bandas.push("Babymetal")//6
+bandas.push("KAQRIYOTERROR")//7
+bandas.push("Sepultura (do Brasil!)")//8
+bandas.push("Stone Sour")//9
+bandas.push("Spiritbox")//10
+console.log(bandas)
 
 // Funções básicas
 // Escopo
