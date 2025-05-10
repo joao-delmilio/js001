@@ -65,54 +65,54 @@ precoAcrescimo = (17 / 100) * preco
 console.log("O preço acrescido de 17% é de:", preco + precoAcrescimo, "sendo", precoAcrescimo.toFixed(2), "o valor do acrescimo")
 precoDesconto = (7 / 100) * (preco + precoAcrescimo)
 console.log("O preço total com o desconto é de:", preco + precoAcrescimo - precoDesconto, "sendo", precoDesconto.toFixed(2), "o valor do desconto em cima do valor com acrescimo")
-precoDesconto = ((7/100)*preco)
+precoDesconto = ((7 / 100) * preco)
 console.log("O preço com desconto em cima do preço orignal é de:", precoDesconto.toFixed(2), "totalizando", preco - precoDesconto)
 
 // Estrutura
 //     Estrutura de controle/decisão
-if(10>12){
+if (10 > 12) {
     console.log("10 é maior que 5")
 }
-else{
+else {
     console.log("macaco comendo banana")
 }
 
 let idadeCandidato = 19
 
-if(idadeCandidato>=18){
+if (idadeCandidato >= 18) {
     console.log("Maior de idade")
 }
-else{
+else {
     console.log("Tchau brigado")
 }
 
 //DESAFIO
 //faça um código que verifique se o salário do funcionário é maior que 5000, se for mostre a mensagem "salário OK" se não mostre a mensagem "Precisa de aumento"
 
-let salarioFunc=3000
-let x = 5000-salarioFunc
+let salarioFunc = 3000
+let x = 5000 - salarioFunc
 
-if(salarioFunc>5000){
+if (salarioFunc > 5000) {
     console.log("Salário OK")
-}else{
+} else {
     console.log("Precisa de aumento")
     console.log("precisa de um aumento de", x, "reais")
 }
 
 //     Laços de repetição
 let controle = 1
-while(controle <= 10){
+while (controle <= 10) {
     console.log("Senac Americana")
     controle = controle + 1
 }
 
 let contardez = 1
-while(contardez < 100){
+while (contardez < 100) {
     console.log(contardez)
     contardez = contardez + 2
 }
 
-for(let i=1; i<=10; i=i+1){
+for (let i = 1; i <= 10; i = i + 1) {
     console.log("Macaco comendo banana")
 }
 // Arrays --> vetor
@@ -141,6 +141,13 @@ bandas.push("Spiritbox")//10
 console.log(bandas)
 
 // Funções básicas
+function soma(num1, num2) {
+    let total = num1 + num2
+    console.log("O resultado é " + total)
+}
+
+soma(2, 3) //FUNÇÕES SÓ SÃO EXECUTADAS QUANDO CHAMADAS
+
 // Escopo
 
 
